@@ -84,12 +84,12 @@ header {
 
 .hero__button {
     cursor: pointer;
-    height: 4rem;
+    height: 3rem;
     width: 10rem;
-    margin: 1rem 0;
-    padding: 1rem;
-    background-color: #0b1b32;
-    color: var(--white);
+    margin: 2rem 0;
+    padding: .5rem;
+    background-color: #a6b3c5;
+    color: black;
     text-align: left;
     font-size: 1.5rem;
     border: none;
@@ -98,15 +98,15 @@ header {
 
 .hero__button:hover,
 .hero__button:active {
-    background-color: var(--white);
-    color: #071221;
+    background-color: var(--dark-blue);
+    color: var(--white);
 }
 
 .article__container {
     display: flex;
     justify-content: center;
     gap: 1rem;
-
+margin-bottom: 5rem;
 }
 
 article {
